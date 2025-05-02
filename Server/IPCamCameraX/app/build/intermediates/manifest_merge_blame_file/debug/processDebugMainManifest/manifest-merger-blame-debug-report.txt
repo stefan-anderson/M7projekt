@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ipcamcamerax"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_SETTINGS" />
+11-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:4:5-72
+11-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:4:22-69
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:5:5-65
+12-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:6:5-67
+13-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:7:5-77
+14-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:7:22-74
+15
+16    <uses-feature
+16-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:8:5-85
+17        android:name="android.hardware.camera"
+17-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:8:19-57
+18        android:required="false" />
+18-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:8:58-82
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\stefa\.gradle\caches\8.14\transforms\fe0b28f75a9197cfe238854f694107c8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.ipcamcamerax.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\stefa\.gradle\caches\8.14\transforms\fe0b28f75a9197cfe238854f694107c8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\stefa\.gradle\caches\8.14\transforms\fe0b28f75a9197cfe238854f694107c8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.ipcamcamerax.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\stefa\.gradle\caches\8.14\transforms\fe0b28f75a9197cfe238854f694107c8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\stefa\.gradle\caches\8.14\transforms\fe0b28f75a9197cfe238854f694107c8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:10:5-21:19
+27        android:allowBackup="true"
+27-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:11:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\stefa\.gradle\caches\8.14\transforms\fe0b28f75a9197cfe238854f694107c8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:label="IP Cam CameraX"
+31-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:12:9-39
+32        android:supportsRtl="true"
+32-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:13:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+34-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:14:9-65
+35        <activity
+35-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:15:9-20:20
+36            android:name="com.example.ipcamcamerax.MainActivity"
+36-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:15:19-47
+37            android:exported="true" >
+37-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:15:48-71
+38            <intent-filter>
+38-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:16:13-19:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:17:17-69
+39-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:17:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:18:17-77
+41-->C:\Users\stefa\Documents\IPCamCameraX\app\src\main\AndroidManifest.xml:18:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <service
+45-->[androidx.camera:camera-camera2:1.2.3] C:\Users\stefa\.gradle\caches\8.14\transforms\18c7197b215628188d7fde12c7ab110a\transformed\camera-camera2-1.2.3\AndroidManifest.xml:24:9-33:19
+46            android:name="androidx.camera.core.impl.MetadataHolderService"
+46-->[androidx.camera:camera-camera2:1.2.3] C:\Users\stefa\.gradle\caches\8.14\transforms\18c7197b215628188d7fde12c7ab110a\transformed\camera-camera2-1.2.3\AndroidManifest.xml:25:13-75
+47            android:enabled="false"
+47-->[androidx.camera:camera-camera2:1.2.3] C:\Users\stefa\.gradle\caches\8.14\transforms\18c7197b215628188d7fde12c7ab110a\transformed\camera-camera2-1.2.3\AndroidManifest.xml:26:13-36
+48            android:exported="false" >
+48-->[androidx.camera:camera-camera2:1.2.3] C:\Users\stefa\.gradle\caches\8.14\transforms\18c7197b215628188d7fde12c7ab110a\transformed\camera-camera2-1.2.3\AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.camera:camera-camera2:1.2.3] C:\Users\stefa\.gradle\caches\8.14\transforms\18c7197b215628188d7fde12c7ab110a\transformed\camera-camera2-1.2.3\AndroidManifest.xml:30:13-32:89
+50                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+50-->[androidx.camera:camera-camera2:1.2.3] C:\Users\stefa\.gradle\caches\8.14\transforms\18c7197b215628188d7fde12c7ab110a\transformed\camera-camera2-1.2.3\AndroidManifest.xml:31:17-103
+51                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+51-->[androidx.camera:camera-camera2:1.2.3] C:\Users\stefa\.gradle\caches\8.14\transforms\18c7197b215628188d7fde12c7ab110a\transformed\camera-camera2-1.2.3\AndroidManifest.xml:32:17-86
+52        </service>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stefa\.gradle\caches\8.14\transforms\ad7a9e6167446dda9f9f77429873c39e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stefa\.gradle\caches\8.14\transforms\ad7a9e6167446dda9f9f77429873c39e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.ipcamcamerax.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stefa\.gradle\caches\8.14\transforms\ad7a9e6167446dda9f9f77429873c39e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stefa\.gradle\caches\8.14\transforms\ad7a9e6167446dda9f9f77429873c39e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stefa\.gradle\caches\8.14\transforms\ad7a9e6167446dda9f9f77429873c39e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stefa\.gradle\caches\8.14\transforms\ad7a9e6167446dda9f9f77429873c39e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stefa\.gradle\caches\8.14\transforms\ad7a9e6167446dda9f9f77429873c39e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\stefa\.gradle\caches\8.14\transforms\b671ab0d45fa14d75c80a03d471bf563\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\stefa\.gradle\caches\8.14\transforms\b671ab0d45fa14d75c80a03d471bf563\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\stefa\.gradle\caches\8.14\transforms\b671ab0d45fa14d75c80a03d471bf563\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

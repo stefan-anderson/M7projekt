@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.ipcamcamerax.app-mergeReleaseResources-23:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\stefa\\.gradle\\caches\\8.14\\transforms\\c041a1d7a51ee75dc4ddb46277a74f91\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

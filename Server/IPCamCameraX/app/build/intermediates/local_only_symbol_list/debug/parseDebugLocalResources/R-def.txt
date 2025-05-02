@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+id previewView
+id rootLayout
+layout activity_main
